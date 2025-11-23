@@ -161,23 +161,12 @@ public class TestHDFViewRefs extends AbstractWindowTest {
                 retriever.testAllTableLocations(expectedTrueData);
             else
                 retriever.testAllTableLocations(expectedData);
-<<<<<<< Upstream, based on branch 'master' of https://github.com/byrnHDF/hdfview.git
             // dataTable.doubleclick(1, 1);
             // tableShellData = openDataObject("Dataset2");
-=======
-            //dataTable.doubleclick(1, 1);
-            //tableShellData = openDataObject("Dataset2");
->>>>>>> 9fae332 Fix references test
 
-<<<<<<< Upstream, based on branch 'master' of https://github.com/byrnHDF/hdfview.git
             // final SWTBotNatTable table2 = getNatTable(tableShellData);
             // TableDataRetriever retriever2 =
             //     DataRetrieverFactory.getTableDataRetriever(table2, "openTDataRegionReference()", true);
-=======
-            //final SWTBotNatTable table2 = getNatTable(tableShellData);
-            //TableDataRetriever retriever2 =
-            //    DataRetrieverFactory.getTableDataRetriever(table2, "openTDataRegionReference()", true);
->>>>>>> 9fae332 Fix references test
 
             // retriever2.testAllTableLocations(expectedTableData);
         }
